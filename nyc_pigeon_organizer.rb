@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
     |memo, (category, subcategories)|
     subcategories.each do
       |(cat, names)|
-      names.each do
+      names.length.times do
         |name|
         if memo[name]
           if memo[name][category]
