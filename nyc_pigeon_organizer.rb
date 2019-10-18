@@ -19,6 +19,7 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
+    memo
   end
   name_keyed_list
 end
