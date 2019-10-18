@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
             memo[name][category] << cat.to_s
           else 
             memo[name][category] = []
+            memo[name][category] << cat.to_s
           end
         else
           memo[name] = {}
