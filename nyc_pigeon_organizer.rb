@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
           memo[name] = {}
           memo[name][category] = []
           memo[name][category] << cat.to_s
+        end
       end
     end
   end
