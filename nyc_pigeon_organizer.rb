@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       name.length.times do
         |name|
         if memo[name]
-          memo[name][category] << cat.to_s
+          if memo[name][category] << cat.to_s
       end
     end
   end
